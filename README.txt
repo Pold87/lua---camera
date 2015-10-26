@@ -4,6 +4,19 @@ Linux: None
 
 All: Torch7 (follow instructions here: www.torch.ch)
 
+Remember for the next time:
+
+I had to use
+`#include <opencv/cv.h>`
+instead of
+`#include <cv.h>`
+
+I could find that via
+`sudo find /usr/include -name "highgui.h"`
+
+Instead of forking the repository, a simpler way would have been to add 
+`/usr/include/opencv` to my path.
+
 INSTALL:
 $ luarocks install camera
 
