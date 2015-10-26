@@ -26,8 +26,12 @@
 #include <signal.h>
 #include <pthread.h>
 
-#include <cv.h>
-#include <highgui.h>
+//#include <cv.h>
+#include "opencv2/core.hpp"
+#include "opencv2/opencv.hpp"
+#include "opencv2/highgui.hpp"
+
+//#include <highgui.h>
 
 #define MAXIDX 100
 static CvCapture* capture[MAXIDX];
