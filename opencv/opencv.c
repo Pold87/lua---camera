@@ -27,7 +27,6 @@
 #include <pthread.h>
 
 //#include <cv.h>
-#include "opencv/core.h"
 #include "opencv/opencv.h"
 #include "opencv/highgui.h"
 
